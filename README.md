@@ -4,7 +4,7 @@
 ![License][license-shield]
 ![Stars][stars-shield]
 
-If you've ever seen me [stream web development](https://twitch.tv/leptoflare), you will know that you can go to `live.lepto.tech` to see what I'm working on. This repository has the details on how exactly I implement that. If you would like to do it yourself, see the **Running Locally** section.
+If you've ever seen me [stream software dev](https://twitch.tv/leptoflare), you will know that you can go to `live.lepto.tech` to see what I'm working on. This repository has the details on how exactly I implement that. If you would like to do it yourself, see the **Running Locally** section.
 - Interact and explore the dev build of the website I'm working on.
 
 ## Usage <!-- Using the product -->
