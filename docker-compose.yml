@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+
+  letsencrypt:
+    image: linuxserver/letsencrypt
+    network_mode: "host"
+    restart: unless-stopped
+    env-file:
+      - ./.env
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - URL=lepto.tech
+      - SUBDOMAINS=live
+      - VALIDATION=http
+      - ONLY_SUBDOMAINS=true
+    volumes:
+      - ./var/letsencrypt/config:/config
+      - ./nginx.conf:/config/nginx/site-confs/live.conf
+    ports:
+      - 80:80
+      - 443:443
