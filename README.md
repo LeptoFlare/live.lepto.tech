@@ -1,5 +1,5 @@
 # `live.lepto.tech`
-> A stream tool that lets you interact with what I'm working on, through stream.
+> A stream tool that lets you interact with what I'm working on stream, in real time.
 
 ![License][license-shield]
 ![Stars][stars-shield]
