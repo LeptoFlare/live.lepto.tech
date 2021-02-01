@@ -7,9 +7,6 @@
 If you've ever seen me [stream software dev](https://twitch.tv/leptoflare), you will know that you can go to `live.lepto.tech` to see what I'm working on. This repository has the details on how exactly I implement that. If you would like to do it yourself, see the **Running Locally** section.
 - Interact and explore the dev build of the website I'm working on.
 
-## Usage <!-- Using the product -->
-Go to [`live.lepto.tech`](https://live.lepto.tech).
-
 ## Contributing <!-- Using the source -->
 1. Fork the repository and clone it.
 2. Make a new branch to submit your pull request from.
